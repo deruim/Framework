@@ -4,7 +4,7 @@
  * COMPOSICAO DO CORE E DRIVE.
  */
 require_once 'vendor/autoload.php';
-require_once 'app/kernel.php';
+require_once 'core/kernel.php';
 
 /*
  * INICIANDO SISTEMA DE LIBRARIS, BAIXANDO XML OU ARQUIVO
