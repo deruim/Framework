@@ -27,9 +27,14 @@
             "senha": "EvoFtp1507"
         },
         "hayamax": {
+            "usuario": "",
+            "senha": "",
+            "canal": ""
+        },
+        "hayonik": {
             "usuario": "88962",
             "senha": "0",
-            "canal": "CD"
+            "canal": "H1"
         }
     }
 }
