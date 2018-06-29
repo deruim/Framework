@@ -1,6 +1,6 @@
 <?php
 /*
- * A APLICACAO SE INICIAR RODANDO SEU KERNEL PARA 
+ * A APLICACAO SE INICIAR RODANDO SEU KERNEL PARA
  * COMPOSICAO DO CORE E DRIVE.
  */
 require_once 'vendor/autoload.php';
@@ -14,7 +14,12 @@ require_once 'app/kernel.php';
 
 use Distribuidor\Aldo;
 use Distribuidor\Hayamax;
+use Distribuidor\Hayonik;
 use Distribuidor\Evolusom;
+
 
 $evolusom = new Evolusom();
 $evolusom->StartDownload();
+
+$hayonik = new Hayonik();
+$hayonik->StartDownload();

@@ -11,7 +11,8 @@ class Core
 {
     public function __construct()
     {
-        //date_default_timezone_set('America/Sao_Paulo');
+        date_default_timezone_set('America/Sao_Paulo');
+        ini_set('max_execution_time', -1);
         session_start();
         if (!isset($_SESSION['config.json'])) {
             $this->configurar_aplicacao();
