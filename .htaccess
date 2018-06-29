@@ -1,0 +1,10 @@
+ RewriteEngine On
+   # RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|robots\.txt)$ [NC]
+    RewriteCond %{SCRIPT_FILENAME} !-f
+    RewriteCond %{SCRIPT_FILENAME} !-d
+
+    RewriteCond public/$1 -F
+    RewriteRule (.+) public/$1 [L]
+    RewriteCond $0 !^(index\.php|public/)
+
+    RewriteRule ^(.*)$ index.php?key=$1 [QSA]
