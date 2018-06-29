@@ -4,8 +4,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Driver\\": "app/drivers/",
-            "Core\\": "app/core/",
+            "Core\\": "core/",
+            "Driver\\": "core/drivers/",
             "Distribuidor\\": "app/libraries/"
         }
     }

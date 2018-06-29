@@ -21,7 +21,7 @@ class ComposerStaticInit09043044277228cc3d6a4d24fbd2b0f6
     public static $prefixDirsPsr4 = array (
         'Driver\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app/drivers',
+            0 => __DIR__ . '/../..' . '/core/drivers',
         ),
         'Distribuidor\\' => 
         array (
@@ -29,18 +29,18 @@ class ComposerStaticInit09043044277228cc3d6a4d24fbd2b0f6
         ),
         'Core\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app/core',
+            0 => __DIR__ . '/../..' . '/core',
         ),
     );
 
     public static $classMap = array (
-        'Core\\Core' => __DIR__ . '/../..' . '/app/core/Core.php',
-        'Core\\Routes' => __DIR__ . '/../..' . '/app/core/Routes.php',
+        'Core\\Core' => __DIR__ . '/../..' . '/core/Core.php',
         'Distribuidor\\Aldo' => __DIR__ . '/../..' . '/app/libraries/Aldo.php',
         'Distribuidor\\Evolusom' => __DIR__ . '/../..' . '/app/libraries/Evolusom.php',
         'Distribuidor\\Hayamax' => __DIR__ . '/../..' . '/app/libraries/Hayamax.php',
-        'Driver\\DriverCache' => __DIR__ . '/../..' . '/app/drivers/DriverCache.php',
-        'Driver\\DriverLog' => __DIR__ . '/../..' . '/app/drivers/DriverLog.php',
+        'Distribuidor\\Hayonik' => __DIR__ . '/../..' . '/app/libraries/Hayonik.php',
+        'Driver\\DriverCache' => __DIR__ . '/../..' . '/core/drivers/DriverCache.php',
+        'Driver\\DriverLog' => __DIR__ . '/../..' . '/core/drivers/DriverLog.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

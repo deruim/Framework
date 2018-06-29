@@ -12,14 +12,11 @@ require_once 'app/kernel.php';
  * DO ARQUIVO, PARA ESTAÇÃO DE TRATAMENTO (BOX).
  */
 
-use Distribuidor\Aldo;
-use Distribuidor\Hayamax;
-use Distribuidor\Hayonik;
 use Distribuidor\Evolusom;
-
+use Distribuidor\Hayonik;
 
 $evolusom = new Evolusom();
-$evolusom->StartDownload();
+//$evolusom->StartDownload();
 
 $hayonik = new Hayonik();
-$hayonik->StartDownload();
+//$hayonik->StartDownload();

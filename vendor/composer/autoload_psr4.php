@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Driver\\' => array($baseDir . '/app/drivers'),
+    'Driver\\' => array($baseDir . '/core/drivers'),
     'Distribuidor\\' => array($baseDir . '/app/libraries'),
-    'Core\\' => array($baseDir . '/app/core'),
+    'Core\\' => array($baseDir . '/core'),
 );

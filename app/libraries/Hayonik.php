@@ -9,7 +9,6 @@ class Hayonik
     }
     public function StartDownload()
     {
-        echo '<pre>';
         $hayamax_curl = curl_init();
         curl_setopt($hayamax_curl, CURLOPT_HEADER, 0);
         curl_setopt($hayamax_curl, CURLOPT_VERBOSE, 0);

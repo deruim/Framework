@@ -6,11 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Core\\Core' => $baseDir . '/app/core/Core.php',
-    'Core\\Routes' => $baseDir . '/app/core/Routes.php',
+    'Core\\Core' => $baseDir . '/core/Core.php',
     'Distribuidor\\Aldo' => $baseDir . '/app/libraries/Aldo.php',
     'Distribuidor\\Evolusom' => $baseDir . '/app/libraries/Evolusom.php',
     'Distribuidor\\Hayamax' => $baseDir . '/app/libraries/Hayamax.php',
-    'Driver\\DriverCache' => $baseDir . '/app/drivers/DriverCache.php',
-    'Driver\\DriverLog' => $baseDir . '/app/drivers/DriverLog.php',
+    'Distribuidor\\Hayonik' => $baseDir . '/app/libraries/Hayonik.php',
+    'Driver\\DriverCache' => $baseDir . '/core/drivers/DriverCache.php',
+    'Driver\\DriverLog' => $baseDir . '/core/drivers/DriverLog.php',
 );

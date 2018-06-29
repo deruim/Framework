@@ -45,7 +45,7 @@ class DriverCache
                         $minuto_cache = $horarios_cache[1];
 
                         if ($dia_cache == $dia_atual && $mes_cache == $mes_atual && $ano_cache == $ano_atual) {
-                            if ($hora_atual > $hora_cache + ceil($_SESSION['config.json']['tempo_cache'])) {
+                            if ($hora_atual > $hora_cache - ceil($_SESSION['config.json']['tempo_cache'])) {
                                 unlink($caminho . $arquivo_encontrado);
                             } else {
                                 //ESSE CACHE AINDA SE ENCONTRA VALIDO E PRONTO PRA USO.
