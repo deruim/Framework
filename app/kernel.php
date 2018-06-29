@@ -1,5 +1,5 @@
 <?php
-/*
+/* NOVO COMENTARIO
  * INICIANDO CORE, KERNEL E DRIVERS DO SISTEMA,
  * AO UNICIAR O CORRE JÁ INICIO MINHAS SESSOES DE BASE
  * DECLARADAS NO ARQUIVO CONFIG.JSON
@@ -10,7 +10,6 @@
  */
 
 use Core\Core;
-use Core\Routes;
 use Driver\DriverCache;
 use Driver\DriverLog;
 
