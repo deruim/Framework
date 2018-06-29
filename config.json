@@ -29,7 +29,8 @@
         "hayamax": {
             "usuario": "88962",
             "senha": "0",
-            "canal": "CD"
+            "canal": "CD",
+            "canal": "teste"
         }
     }
 }
