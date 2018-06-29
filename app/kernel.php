@@ -18,7 +18,7 @@ use Driver\DriverLog;
  * DO DISTREIBUIDOR, INICIANDO CURLS E CRAWLERS PARA DOWNLOAD
  * DO ARQUIVO, PARA ESTAÇÃO DE TRATAMENTO (BOX).
  */
-
+echo '<pre>';
 $core = new Core();
 $driver_cache = new DriverCache();
 $driver_log = new DriverLog();
