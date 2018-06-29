@@ -11,14 +11,14 @@ class Core
 {
     public function __construct()
     {
-        date_default_timezone_set('America/Sao_Paulo');
+        //date_default_timezone_set('America/Sao_Paulo');
         session_start();
         if (!isset($_SESSION['config.json'])) {
             $this->configurar_aplicacao();
         } else {
             //APLICACAO JA CONFIGURADA E SESSAO VALIDA
-            //echo '<pre>';
-            //print_r($_SESSION);
+            echo '<pre>';
+            print_r($_SESSION);
         }
     }
     private function configurar_aplicacao()
