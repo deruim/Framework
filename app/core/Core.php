@@ -17,7 +17,7 @@ class Core
             $this->configurar_aplicacao();
         } else {
             //APLICACAO JA CONFIGURADA E SESSAO VALIDA
-            echo '<pre>';
+            //echo '<pre>';
             //print_r($_SESSION);
         }
     }
