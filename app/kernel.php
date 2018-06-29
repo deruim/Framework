@@ -9,7 +9,6 @@
  * CONFIGURADO NO CONFIG.JSON
  */
 
-echo '<pre>';
 use Core\Core;
 use Driver\DriverCache;
 use Driver\DriverLog;
