@@ -17,8 +17,8 @@ class Core
             $this->configurar_aplicacao();
         } else {
             //APLICACAO JA CONFIGURADA E SESSAO VALIDA
-            echo '<pre>';
-            print_r($_SESSION);
+            //echo '<pre>';
+            //print_r($_SESSION);
         }
     }
     private function configurar_aplicacao()
