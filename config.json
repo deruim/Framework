@@ -1,0 +1,35 @@
+{
+    "tempo_cache": "3",
+    "proxy_configuracoes": {
+        "porta": "80",
+        "pais": "US",
+        "proxy_acesso": ""
+    },
+    "diretorios_cache": {
+        "0": "../app/cache/",
+        "1": "../app/cache/ftp_cache/"
+    },
+    "magento": {
+        "versao": "1.9",
+        "api": {
+            "soap_v1": false,
+            "soap_v2": true,
+            "rest": false,
+            "url": "https://www.bhentrega.com.br/api/v2_soap/?wsdl=1",
+            "usuario": "admin",
+            "senha": "123qwe!@#"
+        }
+    },
+    "distribuidores": {
+        "evolusom": {
+            "ftp": "ftp://edi.evolusom.com.br/produtos.xml",
+            "usuario": "ftpevo",
+            "senha": "EvoFtp1507"
+        },
+        "hayamax": {
+            "usuario": "88962",
+            "senha": "0",
+            "canal": "CD"
+        }
+    }
+}

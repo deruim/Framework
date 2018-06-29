@@ -1,0 +1,12 @@
+{
+    "name": "italo/distribuidores",
+    "description": "Modulo de distribuidores",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Driver\\": "app/drivers/",
+            "Core\\": "app/core/",
+            "Distribuidor\\": "app/libraries/"
+        }
+    }
+}
